@@ -1,0 +1,1 @@
+"""SentinelAI — shared AI package."""

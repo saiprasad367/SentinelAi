@@ -1,0 +1,52 @@
+# SentinelAI Backend — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite3
+
+# Reports output
+reports/
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Alembic
+# (keep alembic/ but ignore __pycache__ inside)
+alembic/__pycache__/
+
+# Model cache (HuggingFace)
+.cache/
+models/
